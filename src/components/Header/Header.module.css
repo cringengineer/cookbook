@@ -6,20 +6,20 @@
     margin-left: 5%;
     transition: 1s;
     border-bottom-width: 1px;
-    position: relative;
     cursor: pointer;
-    margin-right: 30%;
+    position: relative;
 }
-
+.header__container {
+    display: flex;
+    align-items: flex-end;
+    max-width: 95vw;
+    justify-content: space-between;
+}
 
 .header {
     background-color: #373d3d7d;
     height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     transition: 1s;
-
 }
 
 .header__title:after {
@@ -109,13 +109,11 @@
     .nav__container {
         display: none;
     }
-    .header__title {
-        font-size: 1.8em;
-        margin-right: 40vw;
+    .header__container {
+        align-items: center;
     }
     .burger__container {
         height: 20px;
-        width: 50px;
         display: block;
         z-index: 50;
     }
@@ -221,7 +219,7 @@
         height: 100vh;
         background-color: #1a2520de;
         z-index: 20;
-        width: 40vw;
+        width: 45vw;
         transition: .5s;
     }
 
@@ -251,8 +249,3 @@
 
 }
 
-@media (max-width: 390px) {
-.header__title {
-    margin-right: 50px;
-}
-}
