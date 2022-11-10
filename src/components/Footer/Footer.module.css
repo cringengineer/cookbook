@@ -1,0 +1,13 @@
+.git__link {
+    margin: 0 auto;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+.footer__container {
+    background-color: #373d3d7d;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}

@@ -1,0 +1,51 @@
+.title {
+    font-size: 2.5em;
+    margin-top: 15vh;
+}
+
+.container {
+    max-width: 75vw;
+    margin: 0 auto;
+}
+
+.ingredients__list {
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+
+.ingredient {
+    font-size: 1.2em;
+}
+
+.recipe__title {
+    font-size: 2.5em;
+    margin-bottom: 3vh;
+}
+
+.recipe {
+    font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+    .recipe__title {
+        font-size: 1.7em;
+    }
+
+    .recipe {
+        font-size: 1.3em;
+    }
+
+    .title {
+        font-size: 1.7em;
+    }
+
+    .ingredients__list {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 565px) {
+    .title {
+        margin-top: 50px;
+    }
+}

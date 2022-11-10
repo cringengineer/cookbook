@@ -1,0 +1,22 @@
+.background__container {
+    min-height: 100vh;
+    background-size: 100%;
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.message {
+    max-width: 60vw;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 30vh;
+}
+
+.message__wrapper {
+    display: flex;
+    height: 100vh;
+}
